@@ -1,0 +1,359 @@
+@import url("https://cdn-uicons.flaticon.com/2.2.0/uicons-solid-rounded/css/uicons-solid-rounded.css");
+@import url("https://cdn-uicons.flaticon.com/2.2.0/uicons-regular-rounded/css/uicons-regular-rounded.css");
+@import url("https://cdn-uicons.flaticon.com/2.2.0/uicons-bold-rounded/css/uicons-bold-rounded.css");
+@import url("https://cdn-uicons.flaticon.com/2.2.0/uicons-bold-rounded/css/uicons-bold-rounded.css");
+@import url("https://cdn-uicons.flaticon.com/2.2.0/uicons-regular-straight/css/uicons-regular-straight.css");
+@import url("https://cdn-uicons.flaticon.com/2.2.0/uicons-thin-rounded/css/uicons-thin-rounded.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&display=swap");
+@import url("https://cdn-uicons.flaticon.com/2.2.0/uicons-solid-straight/css/uicons-solid-straight.css");
+@font-face {
+  font-family: Somar-sans;
+  src: url(font/SomarSans-Light.ttf);
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: Somar-sans;
+  src: url(font/SomarSans-Light.ttf);
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: Somar-sans;
+  src: url(font/SomarSans-SemiBold.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Somar-sans;
+  src: url(font/SomarSans-SemiBoldItalic.ttf);
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: Somar-sans;
+  src: url(font/SomarSans-ExtraBold.ttf);
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: Somar-sans;
+  src: url(font/SomarSans-ExtraBoldItalic.ttf);
+  font-weight: bold;
+  font-style: italic;
+}
+
+.container {
+  height: 19.05cm;
+  width: 28.96cm;
+  margin: auto;
+  background-image: linear-gradient(to top right, #3b4836, #698668);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Somar-sans";
+}
+
+.web {
+  height: 15.34cm;
+  width: 23.34cm;
+  background-color: white;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+.header {
+  height: 1.3cm;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 50%) 0 2px 7px -1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.header .sec {
+  display: flex;
+  align-items: center;
+}
+
+.headerObj {
+  margin: 0 10px;
+}
+
+.header img {
+  height: 1.25cm;
+}
+
+.header .search {
+  height: 0.5cm;
+  width: 4cm;
+  border-radius: 25px;
+  background-color: #dbdcde;
+  box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px 0.5px;
+  color: #777978;
+  cursor: text;
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  flex: 1;
+  height: 50%;
+  width: 50%;
+  padding-right: 10px;
+  font-weight: normal;
+  background: transparent;
+  border: 0;
+  outline: solid black 0px;
+  font-family: "Somar-sans";
+  font-size: 8px;
+  color: #334131;
+  text-align: right;
+}
+
+.header .search span {
+  font-size: 12px;
+  margin-left: 10px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.header .midd {
+  height: 100%;
+  width: 8cm;
+  padding: 0 1.2cm;
+  align-items: center;
+  font-size: 0.45cm;
+  color: #585a59;
+  text-shadow: rgba(0, 0, 0, 0.3) 1px 0.5px 0.5px;
+}
+
+.header .midd i {
+  padding: 0 0.6cm;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.header .midd i:hover {
+  color: rgb(172, 187, 125);
+  transform: scale(1.1);
+  text-shadow: none;
+}
+
+.header .right {
+  width: 6cm;
+  height: 100%;
+  color: #303030;
+}
+
+.header .right .search {
+  background-color: white;
+  width: 2cm;
+}
+
+.header .right i {
+  height: 0.67cm;
+  width: 0.67cm;
+  margin: 0 0.13cm;
+  background: #dbdcde;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.33cm;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.header .right i:nth-child(4) {
+  font-size: 0.65cm;
+}
+
+.header .right i:hover {
+  box-shadow: none;
+  background: rgba(172, 187, 125, 1);
+  color: white;
+}
+
+.tasks {
+  height: 9cm;
+  width: 25cm;
+  margin-top: 1cm;
+  background-color: white;
+  border: solid white 2px;
+  border-radius: 5px;
+  border-bottom-right-radius: 0;
+  box-shadow: rgba(0, 0, 0, 0.7) 0 5px 8px -1px,
+    inset rgba(0, 0, 0, 0.8) 1px 1px 2px,
+    inset rgba(0, 0, 0, 0.07) 1px 1px 50px 100px;
+  margin-left: -35px;
+  color: #333;
+}
+
+.tasks img {
+  width: 2.9cm;
+  margin: 0.3cm 0.9cm;
+}
+
+.tasks h1 {
+  font-weight: normal;
+  font-size: 23px;
+  text-align: center;
+  margin-top: -1.5cm;
+  line-height: 0.8cm;
+  letter-spacing: 1px;
+}
+
+.tasks h1 .green {
+  color: rgb(172, 187, 125);
+}
+
+.tasks h1 span:nth-child(3),
+.tasks h1 span:nth-child(4) {
+  font-weight: 200;
+  font-size: 17px;
+}
+
+.tasks .list {
+  padding: 1.8cm 2.5cm;
+  line-height: 40px;
+}
+
+.tasks .list h1 {
+  font-size: 30px;
+  text-align: right;
+}
+
+.tasks .list i {
+  color: #845b3e;
+  font-size: 0.8cm;
+}
+
+.tasks .list ul li {
+  font-weight: 200;
+  text-align: right;
+  font-size: 21px;
+  list-style: none;
+  direction: rtl;
+}
+
+.tasks .list ul li b {
+  font-weight: normal;
+}
+
+.tasks .list h1::before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 8px 13px 8px 0;
+  border-color: transparent #845b3e transparent transparent;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: -6.5cm;
+}
+
+.tasks .circle-logo {
+  height: 2.3cm;
+  width: 2.3cm;
+  margin: -70px 0 0 120px;
+  padding: 0.3cm;
+  background: white;
+  border: 2px solid white;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.7) 16px 20px 8px -15px,
+    inset rgba(0, 0, 0, 0.8) 1px 2px 2px,
+    inset rgba(0, 0, 0, 0.04) 1px 1px 50px 100px;
+}
+
+.tasks button {
+  height: 1cm;
+  width: 4.45cm;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  background-image: linear-gradient(to right, #859656, rgb(172, 187, 125));
+  font-family: "Somar-sans";
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.45) 1px 0.5px 1px;
+  box-shadow: rgba(0, 0, 0, 0.65) 1px 2px 3px;
+  font-size: 21px;
+  float: right;
+  margin-right: 2cm;
+  margin-top: -0.3cm;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: ease 0.3s;
+}
+
+.tasks button i {
+  margin-top: 8px;
+  padding: 0 10px 0 0;
+  font-size: 23px;
+}
+
+.tasks button:hover {
+  background: white;
+  border: 2px solid rgb(172, 187, 125);
+  color: rgb(172, 187, 125);
+  text-shadow: none;
+  box-shadow: none;
+}
+
+.web .footer {
+  position: relative;
+  top: 2.35cm;
+}
+
+.web .footer ul {
+  height: 1.1cm;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-family: "Noto Sans Arabic", sans-serif;
+  padding: 0 0.5cm;
+}
+
+.web .footer ul li {
+  display: flex;
+  font-size: 11px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 72px;
+  position: relative;
+  padding: 0 30px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.4s;
+  color: #333;
+  font-weight: 500;
+}
+
+.web .footer ul > li:first-child {
+  color: #845b3e;
+}
+.web .footer ul > li:first-child::after {
+  width: 50%;
+}
+
+.web .footer ul > li::after {
+  content: "";
+  position: absolute;
+  height: 0.1cm;
+  width: 0%;
+  background-color: #845b3e;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  margin-top: 1.09cm;
+  transition: 0.4s;
+}
+
+.web .footer ul > li:hover::after {
+  width: 50%;
+}
